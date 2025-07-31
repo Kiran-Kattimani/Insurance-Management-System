@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  backend:
+    image: kirankattimani/insurance-backend
+    ports:
+      - "8050:8050"
+    depends_on:
+      - mysql
+    networks:
+      - app-net
+
+  frontend:
+    image: kirankattimani/insurance-frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - app-net
+
+  mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: sdb
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-net
+
+volumes:
+  mysql-data:
+
+networks:
+  app-net:
