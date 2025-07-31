@@ -12,8 +12,8 @@ All services are containerized using Docker and managed with `docker-compose`.
 
 ## 📦 Docker Hub Images
 
-- Backend Image: `kirankattimani/insurance-backend`
-- Frontend Image: `kirankattimani/insurance-frontend`
+- Backend Image: `kirankattimani/health-backend:latest`
+- Frontend Image: `kirankattimani/health-frontend:latest`
 
 ---
 
