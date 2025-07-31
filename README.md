@@ -24,5 +24,5 @@ This project runs your **backend** (Spring Boot), **frontend** (React), and **My
 ### 📥 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/kirankattimani/Insurance-Management-System.git
+git clone https://github.com/kiran-kattimani/Insurance-Management-System.git
 cd Insurance-Management-System
