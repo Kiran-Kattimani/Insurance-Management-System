@@ -1,27 +1,27 @@
-# 🏥 Insurance Management System (Dockerized)
+# 🏥 Insurance Management System — Dockerized
 
-This project runs your **backend** (Spring Boot), **frontend** (React), and **MySQL database** using Docker and Docker Compose.
+This project is a full-stack Insurance Management System with:
 
----
+- 💻 Backend: Spring Boot (Dockerized)
+- 🌐 Frontend: React (Dockerized)
+- 🗄️ Database: MySQL (via Docker)
 
-## 📦 What's Inside?
-
-- 🔧 Backend → [Docker Hub: kirankattimani/insurance-backend](https://hub.docker.com/r/kirankattimani/insurance-backend)
-- 🎨 Frontend → [Docker Hub: kirankattimani/insurance-frontend](https://hub.docker.com/r/kirankattimani/insurance-frontend)
-- 🛢️ Database → MySQL 8.0 (official image)
+All services are containerized using Docker and managed with `docker-compose`.
 
 ---
 
-## ✅ Requirements
+## 📦 Docker Hub Images
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop)
-- [Visual Studio Code](https://code.visualstudio.com/) (optional, for editing/viewing files)
+- Backend Image: `kirankattimani/insurance-backend`
+- Frontend Image: `kirankattimani/insurance-frontend`
 
 ---
 
-## 🚀 How to Use This Project
+## 🚀 How to Run This Project in Your Local VSCode
 
-### 📥 Step 1: Clone the Repository
+> 💡 You don't need to build source code. All components are ready-to-run via Docker.
+
+### 1️⃣ Clone the GitHub Repository
 
 ```bash
 git clone https://github.com/kiran-kattimani/Insurance-Management-System.git
